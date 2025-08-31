@@ -1,0 +1,144 @@
+/* Overall background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FBFBFB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container styling with soft shadow */
+.MuiContainer-root {
+  background-color: #E8F9FF;
+  border-radius: 16px;
+  padding: 40px !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 800px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Title */
+.MuiTypography-h3 {
+  text-align: center;
+  font-weight: 900; /* bold */
+  color: #2b2b2b; /* dark */
+  margin-bottom: 24px;
+  font-size: 2.2rem;
+}
+
+/* TextField */
+.MuiOutlinedInput-root {
+  background: #FBFBFB;
+  border-radius: 10px;
+  color: #333;
+}
+
+.MuiOutlinedInput-root input,
+.MuiOutlinedInput-root textarea {
+  color: #333;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #C4D9FF !important;
+}
+
+.MuiInputLabel-root {
+  color: #555 !important;
+  font-weight: 500;
+}
+
+/* Select Dropdown */
+.MuiSelect-root {
+  color: #333;
+}
+
+/* Primary Button */
+.MuiButton-contained {
+  background: #C4D9FF !important;
+  color: #2b2b2b;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.MuiButton-contained:hover {
+  background: #C5BAFF !important;
+  transform: scale(1.03);
+}
+
+/* Secondary Button (Outlined) */
+.MuiButton-outlined {
+  border: 2px solid #C4D9FF !important;
+  color: #2b2b2b !important;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 20px;
+  transition: 0.3s;
+}
+
+.MuiButton-outlined:hover {
+  background: #E8F9FF;
+  transform: scale(1.03);
+}
+
+/* Scrollbar Styling for TextArea */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #C4D9FF;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #FBFBFB;
+}
+
+/* ✅ RESPONSIVENESS */
+@media (max-width: 768px) {
+  .MuiContainer-root {
+    padding: 20px !important;
+    max-width: 95%;
+  }
+
+  .MuiTypography-h3 {
+    font-size: 1.8rem;
+  }
+
+  .MuiButton-contained,
+  .MuiButton-outlined {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .MuiOutlinedInput-root textarea {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .MuiTypography-h3 {
+    font-size: 1.5rem;
+  }
+
+  .MuiContainer-root {
+    border-radius: 10px;
+    padding: 15px !important;
+  }
+
+  .MuiOutlinedInput-root {
+    font-size: 0.9rem;
+  }
+
+  .MuiButton-contained,
+  .MuiButton-outlined {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
