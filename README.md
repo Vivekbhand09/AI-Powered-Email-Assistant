@@ -27,7 +27,7 @@ No more spending hours crafting responses – let **Generative AI (Gemini)** do 
 
 ---
 
-## 🖼 **Project Demo**  
+## 🖼 **Project Demo :**  
 <p align="center">
   <img src="./Demo.gif" alt="Project Demo" width="700"/>
 </p>
