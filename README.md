@@ -28,6 +28,12 @@ No more spending hours crafting responses – let **Generative AI (Gemini)** do 
 ---
 
 ## 🖼 **Project Demo**  
+<p align="center">
+  <img src="./Demo.gif" alt="Project Demo" width="700"/>
+</p>
+
+
+
 ### 🌐 **Web Application Flow:**  
 1️⃣ Paste your **received email content**.  
 2️⃣ Select your **desired tone**.  
